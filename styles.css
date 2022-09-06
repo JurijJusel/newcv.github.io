@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  background-color: #d0d0dc;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+
+  /* font: normal 18px "Roboto", sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+* {
+  letter-spacing: 1px;
+}
+
+.avatar {
+  width: 200px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+.info {
+  display: flex;
+  color: black;
+  padding: 20px 10px;
+  /* font-style: italic; */
+  margin-bottom: 20px;
+  font-size: large;
+  word-spacing: 2px;
+}
+
+.info-text {
+  margin-left: 50px;
+  font-size: large;
+}
+
+.info-text h1 {
+  margin-bottom: 50px;
+  font-size: 0.8cm;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .info-text {
+    margin-left: 0px;
+  }
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  line-height: 0.8cm;
+  font-size: large;
+}
+
+.table-darbo {
+  width: 100%;
+  border-spacing: 20px;
+  table-layout: auto;
+  line-height: 0.8cm;
+}
+
+.table-darbo td {
+  border-bottom: 1px solid grey;
+}
+
+.list {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  line-height: 1cm;
+  /* font-size: large; */
+}
+
+.bg-grey {
+  background: rgb(154, 154, 154);
+}
+
+.bg-grey-light {
+  background: rgb(185, 185, 185);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.info h2 {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 0.7cm;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px;
+  table-layout: auto;
+  line-height: 0.8cm;
+  font-size: large;
+}
+
+.table-lang {
+  width: 40%;
+  border-spacing: 20px;
+  line-height: 0.8cm;
+  /* font-size: large; */
+}
+
+.table-lang td {
+  border-bottom: 1px solid grey;
+}
+
+.td {
+  width: 15%;
+  text-align: left;
+}
+
+.td-lang {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+}
